@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-google-genai
+langchain-community
+langchain-huggingface
+langchain-chroma
+langgraph
+chromadb
+pypdf
+python-dotenv
+sentence-transformers
+transformers
+huggingface-hub
+python-multipart
+psycopg2-binary
+sqlalchemy
+asyncpg
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch

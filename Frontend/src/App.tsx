@@ -4,7 +4,7 @@ import ChatInterface from './components/ChatInterface'
 import Sidebar from './components/Sidebar'
 
 // Use environment variable or default to localhost for development
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || 'http://0.0.0.0:8000'
 
 // Ensure this matches ChatInterface exactly
 export interface Message {
